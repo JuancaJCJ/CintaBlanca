@@ -35,5 +35,9 @@ GITBash
            3) se sube el código con el cambio
 
         //Segundo commit
+        git status 
+        git add
+        git commit -m "Comentario"
+        git push 'origin master'
         
 
