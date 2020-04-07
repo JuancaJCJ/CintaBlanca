@@ -22,9 +22,18 @@ GITBash
     Comandos GIT
         git init - 
         ls - la - permisos y carpetas ocultas que tenga una carpeta
-        git status -
+        git status - status de las carpetas 
         git add + 'nombre carpeta'- añadir una carpeta a un 'safe point'
-        git add 'espacio' 'punto' (git add  .) - Añadir todas las carpetas al 'safe point' 
+        git add 'espacio' 'punto' (git add  .) - Añadir todas las carpetas al 'safe point'
+        Git commi -m " 'mensaje de confirmacion' " - Confirmar los cambios y subirlos a un repositorio. Se tiene que dar un comentario obligatorio. 
+        git remote -v
 
+        Son 3 pasos 
+
+           1) se crea la carpeta .git
+           2) se pone en area segura (para volver a el como un restaurador)
+           3) se sube el código con el cambio
+
+        //Segundo commit
         
 
