@@ -39,5 +39,8 @@ GITBash
         git add
         git commit -m "Comentario"
         git push 'origin master'
+
+
+        //Aprender de Markdown para poner bonito el código y ponerlo más profesionales
         
 
