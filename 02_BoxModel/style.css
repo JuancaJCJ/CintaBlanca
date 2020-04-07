@@ -1,0 +1,26 @@
+h1{
+    border: solid 1px black;
+    width: 84px;
+    height: 100px;
+    margin-left: 250px;
+}
+
+p { 
+    border: solid 1px blue;
+}
+
+a {
+    border: solid 1px purple;
+    width: 1000px;
+}
+
+/* Margin=borde hacia afuera
+   Padding=borde hacia adentro  
+   margin: auto es para centrar alinear */
+   /* Para margin se puede hacer de dos formar:
+   1. margin-top:
+      margin-right:
+      margin-bottom:
+      margin-left:
+   2. margin: -valor para top y bottom- y -valor rigth y left-
+   3. margin: -valor top- -valor right- -valor bottom- -valor left-*/

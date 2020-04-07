@@ -1,0 +1,54 @@
+
+
+
+<!-- 
+Boostrap es un framework es una biblioteca de estilos genéricos 
+    Boostrap se basa en CSS
+        Otras opciones son: getuikit, bulma -->
+
+<!-- 
+    Responsive |Que todas las páginas se vean bien en todos los dispositvos:
+        Dos vías:
+
+        Desktop First:
+
+        Mobile First |Más recomendable|:
+            Boostrap pensado en esto. Luego se escala a tablet y luego desktop.
+
+    ||Para Java Boostrap usa jQuery
+        Hay que saber cuándo se usa porque carga mucho código a la página ||
+
+    Pros de Boostrap:
+        Tiempos de construcción bajos
+        Interface amigable
+        Fácil de usar
+    Contras de Boostrap:
+        Carga muchos recursos
+        Aun usa jQuery
+ -->
+
+_________________________________
+
+<!-- Hay subclases y pseudoelementos que se añaden en CSS como:
+    hover -> .nombreclase:hover{ y se añade las características}
+ -->
+
+ _________________________________
+
+ <!-- El CSS se ocupa para modificar:
+    colores
+        width
+        heigh
+        font-size
+        font-family
+-->
+__________________________________
+<!-- Para hacer responsive con Bootstrap hacer:
+    <div class="container">
+        <div class="row">
+            Para modificar añadir: "card col- |número de columnas, teniendo en cuenta que la pantalla se divide en 12|"
+            Para modificar un dispositivo en concreto (grande, mediano o pequeño) añadir: "col-10" "col-md-5" "col-lg-3"
+        </div>
+    </div> 
+-->
+    

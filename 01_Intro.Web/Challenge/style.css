@@ -1,0 +1,19 @@
+*{
+    background-color: teal;
+}
+H1{
+    color: rgb(109, 32, 19); 
+    text-align: center;  
+}
+H2{
+    color: rgb(15, 2, 88);
+    text-align: justify;
+}
+img{
+    width: 300px;
+}
+a{
+    font-size: xx-large;
+    text-align: center;
+    text-align: justify;
+}

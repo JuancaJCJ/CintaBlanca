@@ -1,0 +1,93 @@
+/* *{
+    background-color: black;
+} */
+body{
+    margin: 0;
+    padding: 0cm;
+}
+.padre{
+    border: solid 2px;
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: initial;
+    
+    
+}
+/* medidas: vw para width y vh paa heigth */
+/* justify-content es para mover en eje x.
+align-itmes es para mover en eje y.
+en flex-direction se intercambian los ejes
+ */
+.hijos1{
+    border: solid 2px blue;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10vh;
+
+}
+.hijos2{
+    border: solid 2px blue;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh
+}
+.nietos1{
+    border: solid 2px rosybrown;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh;
+}
+.nietos1_2{
+    border: solid 2px rosybrown;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
+.nietos2{
+    border: solid 2px rosybrown;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh;
+}
+.nietos2_2{
+    border: solid 2px rosybrown;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
+.bs1{
+    border: solid 2px chocolate;
+    width: 10%;
+    height: 10%;
+    margin: 0.5vh;
+}
+.bs2{
+    border: solid 2px chocolate;
+    width: 10%;
+    height: 10%;
+    margin: 0.5vh;
+}

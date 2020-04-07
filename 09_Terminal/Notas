@@ -1,0 +1,30 @@
+GITBash
+    Una herramienta para comunicarse directamente con el sistema
+    Es un terminal para acceder a la consola
+
+    Comandos para poder usar:
+        pwd - dice dónde estás parado, la carpeta raíz
+        clear - borrar lo que se ha hecho
+        ls - lista de lo que se tiene en esa carpeta raíz
+        cd + 'carpeta específica' - change directory ir a una carpeta en específico e ir creando una ruta
+        cat + 'archivo' - ver qué hay dentro del archivo seleccionado
+        mkdir - crear una carpeta nueva 
+        touch - crear un archivo
+        rm + 'nombre del archivo' - borrar un archivo: ¡tener cuidado porque se borra de todo, no hay forma de recuperarlo!
+        rm + '-rf' + 'nombre de la carpeta'- dar el 'poder' a la consola para borrar todo lo que esté en una carpeta y sus archivos. ¡No se puede recuperar! 
+        
+
+    Comandos especiales
+        nano + 'nombre del archivo' - editar el archivo en la misma terminal || Nano es un editor de texto
+            Para salir ctrl + x --> Si se quiere guardar Y + enter
+            En nano ^ es igual a ctrl
+        
+    Comandos GIT
+        git init - 
+        ls - la - permisos y carpetas ocultas que tenga una carpeta
+        git status -
+        git add + 'nombre carpeta'- añadir una carpeta a un 'safe point'
+        git add 'espacio' 'punto' (git add  .) - Añadir todas las carpetas al 'safe point' 
+
+        
+

@@ -1,0 +1,31 @@
+.navegation{
+    border: solid 1px black;
+    margin-left: 1250px;
+    border-radius: 25px;
+}
+.gmail {
+    border: solid 1px black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.imagenes {
+    border: solid 1px black;
+
+}
+.menu {
+    border: solid 1px black;
+    margin-top: 20px;
+}
+.cuenta {
+    
+    border-radius: 25px;
+}
+.logo {
+    margin: 200px;
+}
+.search {
+    border: solid 1px black;
+    margin: 300px 500px;
+    border-radius: 25px;
+}

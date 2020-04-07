@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0cm; 
+    display: flex;
+    justify-content: space-between;
+}
+.padre{
+    /* border: solid 2px; */
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+}
+.hijo{
+    /* border: solid 2px; */
+    background-color: rgb(29, 29, 110);
+    width: 40vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.nieto1, .nieto2{
+    /* border: solid 2px; */
+    background-color: white;
+    width: 35vw;
+    height: 40vh;
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+}
+.nieto2{
+    align-items: flex-end;
+}
+.bs1, .bs2{
+    /* border: solid 2px; */
+    background-color: red;
+    width: 30vw;
+    height: 32vh;
+}
+.hija{
+    /* border: solid 2px; */
+    background-color: rgb(29, 29, 110);
+    width: 59vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nieta1, .nieta2{
+    /* border: solid 2px; */
+    background-color: white;
+    width: 55vw;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.nieta2{
+    align-items: flex-end;
+}
+.bsa1, .bsa2{
+    /* border: solid 2px; */
+    background-color: red;
+    width: 50vw;
+    height: 32vh;
+}

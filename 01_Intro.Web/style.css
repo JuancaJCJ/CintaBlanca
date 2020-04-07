@@ -1,0 +1,18 @@
+* {
+    background-color: aquamarine;
+}
+H1{
+    color: rgb(240, 69, 69);
+    text-align: center;
+}
+
+/* para llamar al tipo clase es con un punto y el nombre que se le asignó  */
+.naruto {
+width: 500px;
+}
+.sasuke {
+width: 300px;
+}
+.parrafo{
+    font-size: small;
+}
