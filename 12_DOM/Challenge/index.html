@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Pide tu pizza</title>
+  </head>
+
+  <body class="d-flex align-items-center justify-content-center flex-column font-weight-bolder"> 
+    
+    <div class="d-flex flex-row navbar1">
+        <nav class="navbar-dark bg-dark navbar2">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/Vintage.png" width="30" height="30" alt="Logo">
+            </a>
+            <span class="navbar-brand mb-0 h1 placename">Tu Pizza</span>
+        </nav>
+    </div>
+
+    <h1 id='titulo' style="text-align: center;">¡Pide tu pizza :)!</h1>
+
+    <form> 
+        <div id="form-group" class="name">
+            <label for="exampleFormControlInput1" id="nombre1">Nombre</label>
+            <input type="email" class="form-control" id="nombre" placeholder="">
+        </div>
+        <div class="form-group  cel">
+            <label for="exampleFormControlInput1" id='telefono1'>Teléfono</label>
+            <input type="email" class="form-control" id="telefono" placeholder="+57 3000000000">
+        </div>
+        <select class="custom-select" id="answerpizza">
+            <option selected id="pizza1">Elige tu pizza</option>
+            <option value="Hawaiana">Hawaiana</option>
+            <option value="Pepperoni">Pepperoni</option>
+            <option value="4 Quesos">4 Quesos</option>
+          </select>
+        <div class="form-group">
+            <label for="exampleFormControlInput1" id='direccion1'>Dirección</label>
+            <input type="email" class="form-control" id="direccion" placeholder="">
+        </div>
+    </form>
+
+    <dic class="pedido d-flex align-items-center flex-column">
+        <div>
+            <button type="button" id="pedir">¡Pide tu pizza!</button>
+        </div>
+            <div class="card3 b-card" id="card3" style="width: 18rem">
+                <div class="card-body" id='card2'>
+                    <h5 class="card-title"> Tu recibo, ¡gracias por tu compra!</h5>
+                    <h5 class="card-subtitle mb-2 text-muted" id="nombre2"></h5>
+                    <h5 class="card-subtitle mb-2 text-muted" id="pizza2"></h5>
+                    <h6 class="card-text" id="direccion2"></h6>
+                    <p class="card-text" id="telefono2"></p>
+                </div>
+            </div>
+        <div class="pizzaimg">
+            <div class="hawaiana3 stylo" id="hawaiana2" style="width: 18rem;">
+                <img src="https://www.recetastv.com/wp-content/uploads/2019/03/pizza-hawaiana-1280x720.jpg" class="card-img-top" alt="Hawaiana">
+            </div>
+            <div class="pepperoni3 stylo" id="pepperoni2" style="width: 18rem;">
+                <img src="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni.jpg" class="card-img-top" alt="Pepperoni">
+            </div>
+            <div class="quesos3 stylo" id="quesos2" style="width: 18rem;">
+                <img src="https://unareceta.com/wp-content/uploads/2014/05/pizza-4-quesos.jpg" class="card-img-top" alt="4 Quesos">
+            </div>
+        </div>
+    </dic>
+
+    <!-- Optional JavaScript -->
+    <script src="./main.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+</html>

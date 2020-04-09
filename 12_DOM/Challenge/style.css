@@ -1,0 +1,47 @@
+body{
+    /* border: solid 1px red; */
+    background-image: url(./assets/fondo.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed ;
+    padding-top: 2vh;
+}
+
+.navbar1{
+    width: 100vw;
+}
+.navbar2{
+    width: 9vw;
+}
+.placename{
+    font-family: 'Pacifico', cursive;
+}
+
+#titulo{
+    color: rgba(255, 187, 0, 0.651);
+
+}
+
+#nombre1, #telefono1, #pizza1, #direccion1{
+    color: rgba(255, 99, 71, 0.76);
+    font-size: large;   
+}
+
+.pedido{
+    border: solid 2px red;
+    width: 100vw;
+    
+}
+/* .card3{
+    display: none;
+} */
+.b-card{
+    background-color: salmon;
+}
+
+.hawaiana3, .pepperoni3, .quesos3 {
+    display: none;
+}
+.stylo{
+    width: 50vw;
+
+}

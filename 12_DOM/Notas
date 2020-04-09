@@ -1,0 +1,19 @@
+Cómo juntar las tres propiedades: HTML, CSS y JavaScript
+    Con JavaScript puede hacer funciones llamadas event handlers y hacer que se activen usando atributos HTML
+        DOM, Document Object Model: elemento de HTML para que JavaScript acceda y modificar a todos los elementos de HTML como si fuera un objeto. 
+    
+    .innetHTML -> Cambia un id de html desde JavaScript, el cabmio se ve en el navegador
+
+
+Respuesta Challenge
+    Pasos:
+        1. copiar desde bootstrap
+        2. crear JS y CSS y linkearlos
+        3. Copiar y pegar los elementos que quiera desde bootstrap
+        4. Ponerle el ID a todos los elementos desde su 'padre', en este caso input
+        5. Agregar los elementos de HTML en JS con let 'nombre variable' = document.getElementBtId('Nombre del ID)
+        6. Luego hacer el ID de las respuestas, en este caso p y button
+        7. Agregarlas como variable let 'nombre variable' = document.getElementBtId('Nombre del ID) en el JS
+        8. Con un const crear los valores que quiero que vayan adquieriendo todas mis variables
+        9. Crear un condicional dentro de la función const
+        10. 
